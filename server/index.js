@@ -13,7 +13,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/employee")
 app.post('/registor', (req, res) =>{
     EmployeeModel.create(req.body)
     .then(employees => res.json(employees))
-    .catch(err => res.json(err))
+    .catch(err => res.json)
 })
 
 app.listen(3001, () =>{
