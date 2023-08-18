@@ -1,6 +1,6 @@
 //here we write our api code...
 const express = require("express")
-const mongoose = require("mongoose")
+const mongoose = require('mongoose')
 const cors = require("cors")
 const EmployeeModel = require('./modals/employee')
 
