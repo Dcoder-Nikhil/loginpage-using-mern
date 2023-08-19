@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div>
+      {/* Route the pages */}
       <BrowserRouter>
         <Routes>
           <Route path='/register' element={<Signup />}></Route>
